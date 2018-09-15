@@ -5,14 +5,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 日期工具类；
+ * 日期工具类
  * Created by TimAimee on 2018/9/8.
  */
 public class DateUtil {
     /**
      * 获取开奖时间
      * @param str
-     * @return 打他（Data对象）
+     * @return 日期对象
      * @throws ParseException（异常处理）
      */
     public Date getStartDate(String str) throws ParseException {
