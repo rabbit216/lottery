@@ -26,19 +26,19 @@ public class LotteryUtil {
      */
     private String url = "http://f.apiplus.net/cqssc-2.json";
     /**
-     * 一个集合
+     * 集合
      */
     List<String> arraylist;
 
     /**
-     * 一个LotteryUtil构造方法
+     * LotteryUtil构造方法
      */
     public LotteryUtil() {
         arraylist = new ArrayList<>();
     }
 
     /**
-     * 得到一个lottery对象
+     * 得到lottery对象
      * @param filePath 文件路径
      */
     public void getLottery(String filePath) {
@@ -61,8 +61,8 @@ public class LotteryUtil {
         }
     }
     /**
-     * 把一个url拿到的json转成lottery对象
-     * @return 返回一个Lottery对象
+     * 把url拿到的json转成lottery对象
+     * @return 返回Lottery对象
      * @throws Exception
      */
     public Lottery getLotteryObject() throws Exception {
@@ -71,7 +71,7 @@ public class LotteryUtil {
         return lottery;
     }
     /**
-     * 传人一个json字符串还回一个lottery对象；
+     * 传入json字符串返回lottery对象；
      * @param json
      * @return Lottery对象
      * @throws Exception
@@ -83,9 +83,9 @@ public class LotteryUtil {
     }
 
     /**
-     * 规定一个时间格式以这种格式还回一个时间
+     * 规定时间格式以这种格式返回时间
      * @param str
-     * @return 返回一个Data对象
+     * @return 返回Data对象
      * @throws ParseException
      */
     public Date getDate(String str) throws ParseException {
@@ -96,9 +96,9 @@ public class LotteryUtil {
 
 
     /**
-     * 把传人的文件累加写入到文件
-     * @param file 传人的文件
-     * @param conent
+     * 累加内容至文本
+     * @param file 文本路径
+     * @param conent 内容
      */
     public static void appendToFile(String file, String conent) {
 //        System.out.println(file);

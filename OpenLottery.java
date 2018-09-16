@@ -8,32 +8,32 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * 一个执行的main方法；
+ * 执行的main方法；
  * Created by TimAimee on 2018/9/7.
  */
 public class OpenLottery {
     /**
-     * 新建一个lotteryUtil对象
+     * 新建lotteryUtil对象
      */
     static LotteryUtil lotteryUtil = new LotteryUtil();
     /**
-     * 新建一个dateUtil对象
+     * 新建dateUtil对象
      */
     static DateUtil dateUtil = new DateUtil();
 
 
 //    static long time = 1000L * 6;
     /**
-     * 定义一个循环时间
+     * 定义循环时间
      */
     static long time = 1000L * 60 * 10;
     /**
-     * 定义一个停止时间
+     * 定义停止时间
      */
     static String stopTime_1 = "23:00:00";
 
     /**
-     * 定义一个保存文件路径
+     * 定义保存文件路径
      */
     static String filePath = "C:\\Users\\Administrator\\Desktop\\李伟杰\\";
 
@@ -49,7 +49,7 @@ public class OpenLottery {
         method2(time, timer);
     }
     /**
-     * 判断得到一个结束执行
+     * 判断得到结束执行
      * @param period 周期
      * @param timer Time对象
      */
